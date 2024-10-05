@@ -6,15 +6,11 @@ This repository contains a Python script (`main.py`) that automates browser acti
 
 - Python 3.x
 - Chrome Browser
-- ChromeDriver (for controlling Chrome via Selenium)
+- ChromeDriver (for controlling Chrome via Selenium) - https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json 
 - Node.js and npm (optional, for additional JavaScript tools)
 
-## Environment Setup
+## To run the script
 
-### 1. Install Python and Pip
-
-Make sure Python 3.x and `pip` (Python's package installer) are installed on your machine. You can verify this by running the following commands:
 
 ```bash
-python --version
-pip --version
+python3 main.py 
