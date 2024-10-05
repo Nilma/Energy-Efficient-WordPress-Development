@@ -1,0 +1,376 @@
+/*
+Theme Name: blog
+Author: Daud Mir
+Description: My custom WordPress theme.
+Version: 1.0
+*/
+
+/* Normalize CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif; /* You can replace with your preferred font-family */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+.site-header {
+  background-color: rgb(49, 48, 48) !important; /* Light gray background */
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: #fff;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the items */
+}
+
+.site-header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.site-header h1 a:hover {
+  color: #007bff; /* Add some color on hover */
+}
+
+.site-header p {
+  font-size: 14px;
+  color: #666; /* Make the description a bit muted */
+}
+
+/* Navigation */
+.main-navigation {
+  order: 2;
+  margin-top: 0;
+}
+
+.main-menu {
+  display: flex;
+  gap: 20px; /* Spacing between menu items */
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-menu a:hover {
+  background-color: #007bff; /* Change color on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Blog Grid */
+#main-content {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* This creates a responsive grid */
+  gap: 20px; /* This adds spacing between grid items */
+  margin-top: 20px;
+}
+
+/* Blog Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.posts-grid h2 {
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.03);
+}
+
+.post-image {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover .post-image img {
+  transform: scale(1.1);
+}
+
+/* Single Post Styles */
+
+.single-post-container {
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-header h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post-meta span {
+  margin-right: 20px;
+  color: #888;
+}
+
+.post-featured-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.post-content p {
+  margin-bottom: 20px;
+}
+
+.post-footer {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.post-footer p {
+  color: #888;
+}
+
+/* Post Navigation Styles */
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.nav-previous,
+.nav-next {
+  width: 45%; /* This splits the space between the two links */
+  text-align: center; /* Centers the text within each navigation link */
+}
+
+.nav-previous a,
+.nav-next a {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px; /* Slightly bigger font size for better readability */
+  background: linear-gradient(
+    145deg,
+    #f5f5f5,
+    #d9d9d9
+  ); /* Subtle gradient for a 3D look */
+  box-shadow: 3px 3px 8px #b8b8b8, -3px -3px 8px #ffffff; /* Gives a subtle elevated look */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+  color: #333; /* Slightly darker text for better contrast */
+}
+
+.nav-previous a:hover,
+.nav-next a:hover {
+  background: linear-gradient(145deg, #e6e6e6, #c0c0c0);
+  box-shadow: 2px 2px 6px #b8b8b8, -2px -2px 6px #ffffff; /* Reducing the box-shadow on hover for a pressed effect */
+}
+
+.nav-previous a::before,
+.nav-next a::after {
+  content: "\2190"; /* Left-pointing arrow */
+  margin-right: 8px; /* Spacing between the arrow and the text */
+}
+
+.nav-next a::after {
+  content: "\2192"; /* Right-pointing arrow */
+  margin-left: 8px; /* Spacing between the text and the arrow */
+}
+
+.about-page-wrapper {
+  padding: 50px 0;
+  background-color: #f9f9f9; /* light gray background */
+  font-family: "Arial", sans-serif;
+}
+
+.about-introduction {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.about-introduction h1 {
+  margin-top: 0;
+  color: #333; /* dark text */
+  font-size: 2.5em;
+}
+
+.about-introduction p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666; /* gray text */
+}
+
+.about-section {
+  margin-bottom: 30px; /* Adjust this value as needed */
+}
+
+.site-footer {
+  background-color: rgb(49, 48, 48) !important;
+  color: #ecf0f1; /* Off white */
+  padding: 60px 0;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Max width to maintain readability */
+  margin: 0 auto; /* Centering the content */
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h2 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #ecf0f1; /* Adds a small underline for the headers */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.2s; /* Transition effect for hover */
+}
+
+.footer-nav a:hover {
+  color: #3498db; /* Light blue shade */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #ecf0f1;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  transition: color 0.2s; /* Transition effect for hover */
+}
+
+.social-icons a:hover {
+  color: #3498db; /* Light blue shade */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #ecf0f1;
+  padding-top: 20px;
+}
+
+.all-blogs {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 60px;
+}
+
+#shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-item {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #555;
+}
