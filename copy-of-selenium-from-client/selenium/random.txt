@@ -1,0 +1,11 @@
+    
+    "main_header": "//h1/a[text()='blog']",
+    "about_link": "//nav[contains(@class, 'main-navigation')]//a[text()='About']",
+    "post_2_link": "//h2/a[text()='How Tech Companies Are Addressing the Energy Problem']",
+    "post_3_link": "//h2/a[text()='The Hidden Costs of Personal Devices']",
+    "post_4_link": "//h2/a[text()='The Real Cost of Cloud Computing']",
+    "post_5_link": "//h2/a[text()='Understanding Energy Consumption in the Digital Age']",
+    "post_6_link": "//h2/a[text()='Tech and Energy: A Balancing Act']"
+
+
+- Efter blogs, klik på shop, klik produkt, klik næste produkt/recommended 8 gange, lokaliser købs knap og render en alert(succesful purchase).

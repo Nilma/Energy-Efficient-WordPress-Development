@@ -1,0 +1,178 @@
+{
+
+  "site1": {
+    "url": "http://192.168.137.102/site1",
+    "h1_heading": "//h1[text()='All Blogs']",
+    "post_1_h2": "//header/h2/[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+  
+    "post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']"
+    
+  
+  },
+  
+  "site2": {
+    "url": "http://192.168.137.102/site2",
+    "h1_heading": "//h1[text()='All Blogs']",
+    "post_1_h2": "//header/h2/[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+  
+    "post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']"
+    
+  
+  },
+  
+  "site3": {
+    "url": "http://192.168.137.102/site3",
+    "h1_heading": "//h1[text()='Mindblown: a blog about philosophy.']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_1_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_2_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='How Tech Companies Are Addressing the Energy Problem']",
+    "post_2_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_2_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_3_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Hidden Costs of Personal Devices']",
+    "post_3_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_3_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_4_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Real Cost of Cloud Computing']",
+    "post_4_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_4_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    
+    "post_5_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Understanding Energy Consumption in the Digital Age']",
+    "post_5_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_5_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_6_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tech and Energy: A Balancing Act']",
+    "post_6_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_6_next_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "a_link_blog": "//h1/a[text()='Site3']",
+    "click_a_link_blog": "//h1/a[text()='Site3']"
+  },
+  
+  "site4": {
+    "url": "http://192.168.137.102/site4",
+    "h1_heading": "//h1[text()='Mindblown: a blog about philosophy.']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_1_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_2_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='How Tech Companies Are Addressing the Energy Problem']",
+    "post_2_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_2_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_3_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Hidden Costs of Personal Devices']",
+    "post_3_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_3_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_4_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Real Cost of Cloud Computing']",
+    "post_4_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_4_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    
+    "post_5_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Understanding Energy Consumption in the Digital Age']",
+    "post_5_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_5_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_6_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tech and Energy: A Balancing Act']",
+    "post_6_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_6_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "a_link_blog": "//h1/a[text()='Site4']",
+    "click_a_link_blog": "//h1/a[text()='Site4']"
+  
+  },
+  
+  "site5": {
+    "url": "http://192.168.137.102/site5",
+    "h1_heading": "//h1[text()='All Blogs']",
+    "post_1_h2": "//header/h2/[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_1_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+  
+    "post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_2_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_3_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_4_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    
+    "post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']",
+    "click_post_5_next_button": "//div[@class='nav-next']/a[text()='Next Post']"
+},
+  
+  "site6": {
+    "url": "http://192.168.137.102/site6",
+    "h1_heading": "//h1[text()='Mindblown: a blog about philosophy.']",
+    "post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "click_post_1_link": "//h2/a[text()='Tips for Reducing Your Technology-related Energy Usage']",
+    
+    "post_1_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tips for Reducing Your Technology-related Energy Usage']",
+    "post_1_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_1_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_2_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='How Tech Companies Are Addressing the Energy Problem']",
+    "post_2_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_2_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_3_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Hidden Costs of Personal Devices']",
+    "post_3_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_3_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_4_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='The Real Cost of Cloud Computing']",
+    "post_4_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_4_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    
+    "post_5_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Understanding Energy Consumption in the Digital Age']",
+    "post_5_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_5_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    
+    "post_6_heading": "//main//h1[contains(@class, 'wp-block-post-title') and text()='Tech and Energy: A Balancing Act']",
+    "post_6_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "click_post_6_previous_button": "//div[contains(@class, 'wp-block-buttons')]//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Next')]",
+    "a_link_blog": "//h1/a[text()='Site6']",
+    "click_a_link_blog": "//h1/a[text()='Site6']"
+  }
+  }
